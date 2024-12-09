@@ -1,0 +1,28 @@
+/* @import 'daisyui/dist/full.css'; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: black;
+}
+.glassmorph {
+    background: rgba(255, 34, 0, 0.29);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(229, 87, 64, 0.31);
+}
+
+
+.tabs input[type="radio"]:checked {
+  color: black;
+  border-bottom: 0;
+}
+
+.tabs input[type="radio"] {
+  color: white;
+  border-bottom: 0;
+}
